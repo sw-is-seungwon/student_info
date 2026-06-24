@@ -13,7 +13,7 @@ st.markdown("""
     .stButton>button { background-color: #4ca1a3; color: white; border-radius: 8px; border: none; }
     .stButton>button:hover { background-color: #3b8284; color: white; }
     </style>
-    """, unsafe_allowed_html=True)
+    """, unsafe_allow_html=True)
 
 # 2. 구글 시트 데이터 로드 함수
 # 본인의 구글 시트 URL에서 d/ 와 /edit 사이의 문자열(ID)을 입력하세요.
