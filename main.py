@@ -17,7 +17,7 @@ st.markdown("""
 
 # 2. 구글 시트 데이터 로드 함수
 # 본인의 구글 시트 URL에서 d/ 와 /edit 사이의 문자열(ID)을 입력하세요.
-SHEET_ID = "1W-Iiwnre"
+SHEET_ID = "1W-IiwnreVtr9VnoCH725yddS6EQYSxRGO9CrZ_YY8cM"
 
 @st.cache_data(ttl=60)  # 60초 동안 데이터를 캐싱하여 자주 불러오지 않도록 설정
 def load_data_from_sheets():
